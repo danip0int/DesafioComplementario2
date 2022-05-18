@@ -46,7 +46,7 @@ a{
 	background: rgb(209,214,236);
 	background: radial-gradient(circle, rgba(209,214,236,1) 0%, rgba(48,191,245,1) 100%);
 	width: 100%;
-	height: 500px;
+	height: 900px;
 }
 #carrusel2 .texto{
 	z-index: 2;
@@ -60,7 +60,7 @@ a{
 	background: rgb(254,254,254);
 	background: radial-gradient(circle, rgba(254,254,254,0.742734593837535) 0%, rgba(23,241,173,1) 100%);
 	width: 100%;
-	height: 600px;
+	height: 900px;
 }
 #videoExcursion .texto{
 	z-index: 2;
@@ -71,9 +71,18 @@ a{
 	background-color: rgba(63, 146, 255, 0.27);
 }
 
+/*MEDIA QUERIE PANTALLA SM*/
 
-@media all and(max-width: 768px){
+@media all and (max-width: 768px){
 	.titulosHome{
-	font-size: 2rem;
+		font-size: 2rem;
 }
+	.fila-excursion{
+		width: 100% !important;
+		text-align: center;
+	}
+	.wrap-element{
+		flex-wrap: wrap;
+		justify-content: center !important;
+	}
 }
